@@ -1,0 +1,14 @@
+name: ChatClear
+main: ChatClear\ChatClear
+api:
+- 1.12.0
+- 1.13.0
+- 1.13.1
+- 2.0.0
+version: "1.0"
+author: LightBlue
+
+permissions:
+ ChatClear.command.allow:
+  descript: ChatClear command permission
+  default: op
