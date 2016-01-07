@@ -20,7 +20,7 @@ class ChatClear extends PluginBase
 		$command = new PluginCommand("ChatClear", $this);
 		$command->setDescription("채팅을 청소합니다.");
 		$command->setPermission("ChatClear.command.allow");
-		$command->setUsage("$perfix /ChatClear");
+		$command->setUsage("/ChatClear");
 		$commandMap->register("ChatClear", $command);
 	}
 	public function onCommand(CommandSender $sender, Command $command, $label, array $args){
